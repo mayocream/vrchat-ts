@@ -1,6 +1,6 @@
 {
   "name": "vrchat-ts",
-  "version": "3.0.3-1",
+  "version": "3.0.3-3",
   "description": "OpenAPI client for VRChat",
   "author": "Mayo",
   "repository": {
@@ -13,7 +13,7 @@
     "openapi-client",
     "openapi-generator"
   ],
-  "license": "Unlicense",
+  "license": "Apache-2.0",
   "main": "./lib/index.js",
   "type": "module",
   "exports": {
