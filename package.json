@@ -1,0 +1,35 @@
+{
+  "name": "vrchat-ts",
+  "version": "0.0.1",
+  "description": "OpenAPI client for VRChat",
+  "author": "Mayo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mayocream/vrchat-ts.git"
+  },
+  "keywords": [
+    "fetch",
+    "typescript",
+    "openapi-client",
+    "openapi-generator"
+  ],
+  "license": "Unlicense",
+  "main": "./lib/index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "require": "./lib/index.js",
+      "types": "./lib/index.d.js"
+    }
+  },
+  "files": [
+    "lib"
+  ],
+  "typings": "./lib/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  }
+}
