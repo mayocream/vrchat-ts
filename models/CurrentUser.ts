@@ -57,73 +57,73 @@ import {
 } from './DeveloperType';
 
 /**
- * 
+ *
  * @export
  * @interface CurrentUser
  */
 export interface CurrentUser {
     /**
-     * 
+     *
      * @type {number}
      * @memberof CurrentUser
      */
     acceptedTOSVersion: number;
     /**
-     * 
+     *
      * @type {number}
      * @memberof CurrentUser
      */
     acceptedPrivacyVersion?: number;
     /**
-     * 
+     *
      * @type {Date}
      * @memberof CurrentUser
      */
     accountDeletionDate?: Date | null;
     /**
-     *  
+     *
      * @type {Array<AccountDeletionLog>}
      * @memberof CurrentUser
      */
     accountDeletionLog?: Array<AccountDeletionLog> | null;
     /**
-     *  
+     *
      * @type {Array<string>}
      * @memberof CurrentUser
      */
     activeFriends?: Array<string>;
     /**
-     * 
+     *
      * @type {boolean}
      * @memberof CurrentUser
      */
     allowAvatarCopying: boolean;
     /**
-     *  
+     *
      * @type {Array<Badge>}
      * @memberof CurrentUser
      */
     badges?: Array<Badge>;
     /**
-     * 
+     *
      * @type {string}
      * @memberof CurrentUser
      */
     bio: string;
     /**
-     *  
+     *
      * @type {Array<string>}
      * @memberof CurrentUser
      */
     bioLinks: Array<string>;
     /**
-     * 
+     *
      * @type {string}
      * @memberof CurrentUser
      */
     currentAvatar: string;
     /**
-     * 
+     *
      * @type {string}
      * @memberof CurrentUser
      */
@@ -141,37 +141,37 @@ export interface CurrentUser {
      */
     currentAvatarThumbnailImageUrl: string;
     /**
-     * 
+     *
      * @type {Array<string>}
      * @memberof CurrentUser
      */
     currentAvatarTags: Array<string>;
     /**
-     * 
+     *
      * @type {Date}
      * @memberof CurrentUser
      */
     dateJoined: Date;
     /**
-     * 
+     *
      * @type {DeveloperType}
      * @memberof CurrentUser
      */
     developerType: DeveloperType;
     /**
-     * 
+     *
      * @type {string}
      * @memberof CurrentUser
      */
     displayName: string;
     /**
-     * 
+     *
      * @type {boolean}
      * @memberof CurrentUser
      */
     emailVerified: boolean;
     /**
-     * 
+     *
      * @type {string}
      * @memberof CurrentUser
      */
@@ -184,55 +184,55 @@ export interface CurrentUser {
      */
     friendGroupNames: Array<string>;
     /**
-     * 
+     *
      * @type {string}
      * @memberof CurrentUser
      */
     friendKey: string;
     /**
-     * 
+     *
      * @type {Array<string>}
      * @memberof CurrentUser
      */
     friends: Array<string>;
     /**
-     * 
+     *
      * @type {boolean}
      * @memberof CurrentUser
      */
     hasBirthday: boolean;
     /**
-     * 
+     *
      * @type {boolean}
      * @memberof CurrentUser
      */
     hideContentFilterSettings?: boolean;
     /**
-     * 
+     *
      * @type {string}
      * @memberof CurrentUser
      */
     userLanguage?: string | null;
     /**
-     * 
+     *
      * @type {string}
      * @memberof CurrentUser
      */
     userLanguageCode?: string | null;
     /**
-     * 
+     *
      * @type {boolean}
      * @memberof CurrentUser
      */
     hasEmail: boolean;
     /**
-     * 
+     *
      * @type {boolean}
      * @memberof CurrentUser
      */
     hasLoggedInFromClient: boolean;
     /**
-     * 
+     *
      * @type {boolean}
      * @memberof CurrentUser
      */
@@ -250,31 +250,31 @@ export interface CurrentUser {
      */
     id: string;
     /**
-     * 
+     *
      * @type {boolean}
      * @memberof CurrentUser
      */
     isBoopingEnabled?: boolean;
     /**
-     * 
+     *
      * @type {boolean}
      * @memberof CurrentUser
      */
     isFriend: boolean;
     /**
-     * 
+     *
      * @type {Date}
      * @memberof CurrentUser
      */
     lastActivity?: Date;
     /**
-     * 
+     *
      * @type {Date}
      * @memberof CurrentUser
      */
     lastLogin: Date;
     /**
-     * 
+     *
      * @type {Date}
      * @memberof CurrentUser
      */
@@ -286,163 +286,163 @@ export interface CurrentUser {
      */
     lastPlatform: string;
     /**
-     * 
+     *
      * @type {string}
      * @memberof CurrentUser
      */
     obfuscatedEmail: string;
     /**
-     * 
+     *
      * @type {string}
      * @memberof CurrentUser
      */
     obfuscatedPendingEmail: string;
     /**
-     * 
+     *
      * @type {string}
      * @memberof CurrentUser
      */
     oculusId: string;
     /**
-     * 
+     *
      * @type {string}
      * @memberof CurrentUser
      */
     googleId?: string;
     /**
-     * 
+     *
      * @type {object}
      * @memberof CurrentUser
      */
     googleDetails?: object;
     /**
-     * 
+     *
      * @type {string}
      * @memberof CurrentUser
      */
     picoId?: string;
     /**
-     * 
+     *
      * @type {string}
      * @memberof CurrentUser
      */
     viveId?: string;
     /**
-     * 
+     *
      * @type {Array<string>}
      * @memberof CurrentUser
      */
     offlineFriends?: Array<string>;
     /**
-     * 
+     *
      * @type {Array<string>}
      * @memberof CurrentUser
      */
     onlineFriends?: Array<string>;
     /**
-     *  
+     *
      * @type {Array<PastDisplayName>}
      * @memberof CurrentUser
      */
     pastDisplayNames: Array<PastDisplayName>;
     /**
-     * 
+     *
      * @type {CurrentUserPresence}
      * @memberof CurrentUser
      */
     presence?: CurrentUserPresence;
     /**
-     * 
+     *
      * @type {string}
      * @memberof CurrentUser
      */
     profilePicOverride: string;
     /**
-     * 
+     *
      * @type {string}
      * @memberof CurrentUser
      */
     profilePicOverrideThumbnail: string;
     /**
-     * 
+     *
      * @type {string}
      * @memberof CurrentUser
      */
     pronouns: string;
     /**
-     * 
+     *
      * @type {UserState}
      * @memberof CurrentUser
      */
     state: UserState;
     /**
-     * 
+     *
      * @type {UserStatus}
      * @memberof CurrentUser
      */
     status: UserStatus;
     /**
-     * 
+     *
      * @type {string}
      * @memberof CurrentUser
      */
     statusDescription: string;
     /**
-     * 
+     *
      * @type {boolean}
      * @memberof CurrentUser
      */
     statusFirstTime: boolean;
     /**
-     * 
+     *
      * @type {Array<string>}
      * @memberof CurrentUser
      */
     statusHistory: Array<string>;
     /**
-     * 
+     *
      * @type {object}
      * @memberof CurrentUser
      */
     steamDetails: object;
     /**
-     * 
+     *
      * @type {string}
      * @memberof CurrentUser
      */
     steamId: string;
     /**
-     * 
+     *
      * @type {Array<string>}
      * @memberof CurrentUser
      */
     tags: Array<string>;
     /**
-     * 
+     *
      * @type {boolean}
      * @memberof CurrentUser
      */
     twoFactorAuthEnabled: boolean;
     /**
-     * 
+     *
      * @type {Date}
      * @memberof CurrentUser
      */
     twoFactorAuthEnabledDate?: Date | null;
     /**
-     * 
+     *
      * @type {boolean}
      * @memberof CurrentUser
      */
     unsubscribe: boolean;
     /**
-     * 
+     *
      * @type {Date}
      * @memberof CurrentUser
      */
     updatedAt?: Date;
     /**
-     * 
+     *
      * @type {string}
      * @memberof CurrentUser
      */
@@ -518,7 +518,7 @@ export function CurrentUserFromJSONTyped(json: any, ignoreDiscriminator: boolean
         return json;
     }
     return {
-        
+
         'acceptedTOSVersion': json['acceptedTOSVersion'],
         'acceptedPrivacyVersion': json['acceptedPrivacyVersion'] == null ? undefined : json['acceptedPrivacyVersion'],
         'accountDeletionDate': json['accountDeletionDate'] == null ? undefined : (new Date(json['accountDeletionDate'])),
@@ -565,7 +565,7 @@ export function CurrentUserFromJSONTyped(json: any, ignoreDiscriminator: boolean
         'viveId': json['viveId'] == null ? undefined : json['viveId'],
         'offlineFriends': json['offlineFriends'] == null ? undefined : json['offlineFriends'],
         'onlineFriends': json['onlineFriends'] == null ? undefined : json['onlineFriends'],
-        'pastDisplayNames': ((json['pastDisplayNames'] as Array<any>).map(PastDisplayNameFromJSON)),
+        'pastDisplayNames': json['pastDisplayNames'] == null ? undefined : ((json['pastDisplayNames'] as Array<any>).map(PastDisplayNameFromJSON)),
         'presence': json['presence'] == null ? undefined : CurrentUserPresenceFromJSON(json['presence']),
         'profilePicOverride': json['profilePicOverride'],
         'profilePicOverrideThumbnail': json['profilePicOverrideThumbnail'],
@@ -592,7 +592,7 @@ export function CurrentUserToJSON(value?: CurrentUser | null): any {
         return value;
     }
     return {
-        
+
         'acceptedTOSVersion': value['acceptedTOSVersion'],
         'acceptedPrivacyVersion': value['acceptedPrivacyVersion'],
         'accountDeletionDate': value['accountDeletionDate'] == null ? undefined : ((value['accountDeletionDate'] as any).toISOString().substring(0,10)),
